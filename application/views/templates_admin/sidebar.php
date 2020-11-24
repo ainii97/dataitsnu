@@ -44,13 +44,13 @@
 
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
         <i class="fas fa-fw fa-school"></i>
           <span>Program Studi</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="utilities-color.html">Kurikulum Program Studi</a>
+            <a class="collapse-item" href="<?=base_url('admin/programstudi')?>">Kurikulum Program Studi</a>
           </div>
         </div>
       </li>
@@ -62,7 +62,7 @@
           <span>Sumber Daya Manusia</span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
+          <div class="bg-white py-2 collapse-inner rounded" style="word-break: break-word;">
             <a class="collapse-item" href="login.html">Profil Staff ITSNU</a>
             <a class="collapse-item" href="register.html">Dosen Tetap Menurut Jabatan</a>
             <a class="collapse-item" href="forgot-password.html">Dosen Tetap Menurut Pangkat dan Golongan</a>
@@ -79,23 +79,24 @@
       </li>
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseChart" aria-expanded="true" aria-controls="collapseChart">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Data UKT</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="utilities-color.html">Berdasarkan Kategori</a>
           </div>
         </div>
       </li>
+
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="<?= base_url('admin/dataMhs')?>" data-toggle="collapse" data-target="#collapseChart" aria-expanded="true" aria-controls="collapseChart">
+        <a class="nav-link collapsed" href="<?= base_url('admin/dataMhs')?>" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Data Mahasiswa</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="<?= base_url('admin/dataMhs')?>">Mahasiswa Aktif</a>
           </div>
